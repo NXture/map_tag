@@ -1,0 +1,43 @@
+.heading , .container {
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+}
+
+.heading {
+    letter-spacing: 30px;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.container, .kar_img, .map_img, .raj_img, .jk_img, .wb_img {
+    display: flex;
+    justify-content: center;
+}
+
+.kar_img, .jk_img {
+    width: 50%;
+}
+img {
+    width: 75%;
+    height: auto;
+  }
+
+.info {
+    width: 60%;
+}
+
+.info2 {
+    font-weight: bold;
+    text-decoration: underline;
+    color: steelblue;
+}
+
+h4 {
+    text-decoration: underline;
+    font-style: italic;
+    color: tomato;
+}
